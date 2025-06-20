@@ -1,4 +1,5 @@
 " customer_cluster_predict" 
+
 clusters are formed based on the annual income and spending choices of the customers
 
 
