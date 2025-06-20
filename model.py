@@ -29,7 +29,6 @@ for i in range(1, 11):
 #plt.ylabel('WCSS')
 #plt.show()
 
-#why few people getting different graph in the elbow model as all have the same dataset like mine?
 #we can see that the elbow point is at 5, so we will use 5 clusters
 kmeans = KMeans(n_clusters=5, init='k-means++', random_state=1)
 y_predict = kmeans.fit_predict(X)  # fit the model to the data and predict the clusters
